@@ -8,7 +8,6 @@
 		
 		public static function connection(){
 			$cnx = new mysqli("localhost", "root", "", "demo_crud");
-			$cnx->query("SET NAMES 'utf8'");
 			return $cnx;
 		}
 	}
